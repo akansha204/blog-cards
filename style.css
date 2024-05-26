@@ -1,0 +1,129 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: hsl(47, 88%, 63%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Figtree", sans-serif
+
+}
+.attribution { 
+    position: absolute;
+    bottom: 20px;
+    font-size: 11px; 
+    text-align: center;
+ }
+.attribution a {
+     color: hsl(228, 45%, 44%); 
+}
+.container{
+    width: 384px;
+    height: 522px;
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px hsl(0, 0%, 7%);
+    border: 1.5px solid hsl(0, 0%, 7%);
+}
+@media (max-width:375px){
+    .container{
+        width: 327px;
+        height: 501px;  
+    }
+    .card{
+        width: 279px;
+        height: 200px;
+
+        /* margin-top: -10px; */
+        
+    }
+    .card img{
+        border-radius: 10px;
+        width: 279px;
+        /* height: 200px; */
+        margin-top: 30px 0;
+        /* padding-top:24px ; */
+        /* margin-top: -10px; */
+    }
+    .content{
+       position: relative;
+       margin-bottom: 20px;
+    }
+    .content-info{
+        padding: 0 25px ;  
+        
+    }
+    .content .p2{
+        font-size: 15px;
+    }
+    .card-footer{
+        position: absolute;
+        left: 38px;
+        margin-bottom: 20px;
+    }
+    .card-footer p{
+        font-size: 13px;
+        font-weight: 500;
+    }
+ }
+    
+
+.card{
+    position: absolute;
+    bottom: 442px;
+}
+.card img{
+    border-radius: 10px;
+}
+.content{
+    height: 194px;
+    width: 336px;
+    position: absolute;
+    bottom:232px ;
+}
+button{
+    background-color: hsl(47, 88%, 63%);
+    border-radius: 4px;
+    border: none;
+    font-weight: 800;
+    padding: 8px 13px;
+}
+.content .p1{
+    font-size: 16px;
+    font-weight: 500;
+}
+.content a{
+    font-weight: 800;
+    text-decoration: none;
+    color: hsl(0, 0%, 7%);
+    font-size: larger;
+}
+.content a:hover{
+    color: hsl(47, 88%, 63%);
+}
+.content .p2{
+    line-height: 25px;
+}
+.card-footer{
+    position: absolute;
+    bottom: 165px;
+    margin-right: 210px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card-footer img{
+    height: 32px;
+    width: 32px;
+    margin-right: 10px;
+}
+.card-footer p{
+    font-weight: 800;
+}
